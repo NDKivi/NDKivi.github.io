@@ -1,0 +1,141 @@
+* {
+    color: #DAE1E7;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2rem;
+    padding-top: 0.5rem;
+}
+
+h2 {
+    color: #46413E;;
+    font-size: 1.5rem;
+    margin-left: 10%;
+    padding-top: 0.5rem;
+}
+
+body {
+    background-image: url("../images/superior.jpg");
+    background-size: 100%;
+    background-color: #4E5433;
+}
+
+/* 
+grey: #46413E  
+green: #4E5433
+*/
+main, header {
+    background-color: rgba(200, 200, 200, .9);
+    width: 80%;
+    max-width: 1024px;
+    margin: auto;
+}
+
+main {
+    margin-bottom: 5%;
+}
+
+/* Start styles for about */
+#about {
+    background-color: #46413E;
+    overflow: auto;
+}
+
+#about h1 {
+    text-align: left;
+    margin-left: 10%;
+}
+
+#about img {
+    float: right;
+    margin-right: 10%;
+    border-radius: 100px;
+}
+
+#about p {
+    font-family: 'Quattrocento', serif;
+    line-height: 1.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 768px;
+    padding-bottom: 1rem;
+}
+/* End styles for about */
+
+
+/* Start styles for portfolio */
+#card-container {
+    /* background: #1924FF; */
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#card-container > div {
+
+}
+
+.card {
+    margin: 10px 10px 10px 10px;
+    width: 200px;
+    background: #4E5433;
+}
+
+.card-caption {
+    padding: .2rem 1rem;
+    color: white;
+}
+
+.card-caption h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* End styles for portfolio */
+
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        background-size: 200%;
+    }
+
+    main, header {
+        width: 94%;
+    }
+
+    h2 {
+        margin-left: 5%;
+    }
+
+    #about h1 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #about p {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #about img {
+        float: none;
+        margin-left: 5%;
+    }
+
+    #card-container {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
