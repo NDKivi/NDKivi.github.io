@@ -7,6 +7,10 @@ a {
     text-decoration: none;
 }
 
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
 h1 {
     font-size: 2rem;
     padding-top: 0.5rem;
@@ -97,6 +101,19 @@ main {
 .card-caption h4 {
     font-size: 1.2rem;
     font-weight: 500;
+}
+
+a.repo-link {
+    float: right;
+    margin-right: 0.5rem;
+    color: cornsilk;
+    font-style: italic;
+}
+
+a.app-link {
+    margin-left: 0.2rem;
+    color: cornsilk;
+    font-style: italic;
 }
 
 /* End styles for portfolio */
